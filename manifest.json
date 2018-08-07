@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "Unicode Input",
+  "version": "2.1",
+  "author": "Thomas Meehan (Orangeaurochs)",
+
+  "description": "Allows entering of unicode characters by 4 character hex codes, e.g. 00e9 for e acute. Type in the code followed by the Insert key. Doesn't work on sites with very complicated frame set ups, e.g. Gmail or Twitter. Designed principally for use with Ex Libris Alma. Version 2 aims to allow input exactly where the cursor is. 2.1 aims to correct the cursor position after input.",
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "all_frames": true,
+      "js": ["unicode_input.js"]
+    }
+  ]
+
+}

@@ -9,4 +9,4 @@ Chrome Extension: https://chrome.google.com/webstore/detail/unicode-input/hckcoh
  
 Version 2 aims to allow input exactly where the cursor is. 2.1 aims to correct the cursor position after input.
 
-The [Character Input](https://github.com/Orangeaurochs/Character-Input-Browser-Extension) browser extension is an update of Unicode Input, with support for Alt Key combinations and a more convenient method of inputting the copyright symbol.
+N.B.: The [Character Input](https://github.com/Orangeaurochs/Character-Input-Browser-Extension) browser extension is an update of Unicode Input, with support for Alt Key combinations and a more convenient method of inputting the copyright symbol. The Unicode Input browser will no longer be updated or supported unless simple corrections are identified and needed.
